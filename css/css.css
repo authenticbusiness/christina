@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Oriya';
+    src: url('/fonts/authentic_oriya_regular-webfont.eot');
+    src: url('/fonts/authentic_oriya_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/authentic_oriya_regular-webfont.woff') format('woff'),
+         url('/fonts/authentic_oriya_regular-webfont.ttf') format('truetype'),
+         url('/fonts/authentic_oriya_regular-webfont.svg#oriya_authentic_regularRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background: none;
+	margin: 50px;
+	color: black;
+	font-family: 'Oriya', Arial, Helvetica,  Verdana,  sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 2.5em;
+	line-height: 1.3;
+	letter-spacing: 1px;
+	-webkit-text-size-adjust: 100%;
+}
+
+a, a:visited {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+  word-break: break-all;
+  -ms-hyphens: auto;
+ -moz-hyphens: auto;
+ -webkit-hyphens: auto;
+ hyphens: auto;
+}
+
+a:hover {
+	color: blue;
+}
+
+@media all and (max-width: 800px) {
+	body {
+    font-size: 2em;
+}
+}
+
+@media all and (max-width: 500px) {
+	body {
+    font-size: 1.5em;
+}
+}
